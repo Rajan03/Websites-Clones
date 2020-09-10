@@ -1,0 +1,151 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* background color */
+.bgcolor{
+    height: 100vh;
+    width: 100vw;
+    background-color: #D9DCD6;
+}
+.top-bgcolor{
+    height: 20vh;
+    width: 100vw;
+    background-color: #00BFA5;
+}
+
+/* main card */
+main{
+    display: flex;
+    flex-direction: row;
+    height:94vh;
+    width: 86vw;
+    margin: auto;
+    position: relative;
+    top: 3vh;
+}
+.left{
+    display: flex;
+    flex-direction: column;
+}
+
+/* my profile section on top */
+.header span:nth-child(1){
+    display: flex;
+    justify-content: space-between;
+    background-color:#ededed;
+    width:29.6vw ;
+    height: 8vh;
+}
+.icons{
+    width: 10vw;
+    padding-right: 1vw;
+}
+.display-pic{
+    height: 2rem;
+    border-radius:100px;
+    margin: 1vw 1.5vw;
+}
+
+/* notification message */
+.header span:nth-child(2){
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 29.6vw;
+    height: 12vh;
+    background-color: #9de1fe;
+}
+.bell-icon{
+    width: 3rem;
+    height: 3rem;
+    margin-left: 1vw;
+    border-radius: 2rem;
+    background-color: #ffffff;
+}
+.message{
+    padding-left: 1vw;
+    font-size: 1.2vw;
+    color: rgb(48 48 48 / 96%);
+    opacity: 0.7;
+}
+.message > a{
+    text-decoration: none;
+    color: rgb(48 48 48 / 96%);
+}
+.message > a:hover{
+    text-decoration: underline;
+}
+
+/* search box */
+.header span:nth-child(3){
+    display: flex;
+    justify-content: center;
+    width: 29.6vw;
+    height: 7.3vh;
+    background-color: #ededed;
+}
+.search{
+    align-self: center;
+    width: 25.6vw;
+    color:#4a4a4a;
+    height: 5vh;
+    border-radius: 2vw;
+    border: none;
+}
+
+/* conatacts */
+.contacts{
+    overflow-y: scroll;
+}
+.contacts > span{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 28.35vw;
+    background-color: #ffffff;
+}
+.profile{
+    height: 3rem;
+    border-radius:100px;
+    margin: 1vw;
+}
+/* chatbox */
+.right{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    background-color: rgb(248 249 250);
+}
+.right div:nth-child(2){
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: rgb(0 0 0 / 45%);
+}
+span + p{
+    margin: 2rem;
+    font-size: small;
+}
+.chatbox-text p{
+    margin: 1rem;
+    text-align: center;
+    font-size: small;
+}
+.chatbox-text p:nth-child(1){
+    font-size: xx-large;
+    align-self: center ;
+}
+.chatbox-text{
+    border-bottom: 1px #d9d9d9 solid;
+}
+.get{
+    text-decoration: none;
+    color: #07bc4c;
+}
+
