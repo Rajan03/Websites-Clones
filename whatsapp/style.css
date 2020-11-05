@@ -94,6 +94,7 @@ main{
     height: 5vh;
     border-radius: 2vw;
     border: none;
+    outline: none;
 }
 
 /* conatacts */
@@ -106,6 +107,7 @@ main{
     align-items: center;
     width: 28.35vw;
     background-color: #ffffff;
+    border-bottom: 1px solid #000;
 }
 .profile{
     height: 3rem;
