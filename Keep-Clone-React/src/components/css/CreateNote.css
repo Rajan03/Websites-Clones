@@ -1,0 +1,39 @@
+#main {
+  box-shadow: 5px 5px 6px #202124;
+  width: 30vw;
+  margin-top: 20px;
+  /* border: 1px solid #202124; */
+}
+#exampleFormControlTextarea1,
+#exampleFormControlTextarea1:focus,
+#exampleFormControlInput1,
+#exampleFormControlInput1:focus {
+  outline: none;
+  border: none;
+  box-shadow: none;
+}
+.plus-sign {
+  color: #f5b80d;
+  background-color: #fff;
+  border-radius: 50%;
+  font-size: 40px;
+  position: relative;
+  left: 26vw;
+  top: 20px;
+  display: inline-block;
+  cursor: pointer;
+}
+#exampleFormControlInput1 {
+  font-weight: 700;
+}
+@media screen and (max-width: 500px) {
+  #main {
+    width: 90%;
+  }
+  .plus-sign {
+    background: none;
+    position: relative;
+    left: 80%;
+    top: 20%;
+  }
+}

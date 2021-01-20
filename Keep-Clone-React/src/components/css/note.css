@@ -1,0 +1,32 @@
+.card {
+  /* border: 1px solid #202124; */
+  display: inline-block;
+  width: 19vw;
+  box-shadow: 5px 5px 6px #202124;
+  margin: 30px 30px;
+}
+.card-body h5 {
+  font-size: 17px;
+  font-weight: 600;
+}
+.card-body p {
+  font-size: 14px;
+}
+.card-body a {
+  color: #f5b80d;
+  background-color: #fff;
+  border-radius: 50%;
+  font-size: 20px;
+  cursor: pointer;
+  float: right;
+  border: none;
+}
+.card-body a:focus,
+.card-body a:hover {
+  background-color: #f5b80d;
+  border: none;
+  box-shadow: none;
+}
+.note {
+  display: inline-block;
+}
